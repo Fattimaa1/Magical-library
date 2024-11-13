@@ -1,7 +1,13 @@
 import Hero from "../../components/Hero/Hero";
+import BooksList from "../../components/Books/BooksList";
 
 const Home = () => {
-  return <Hero />;
+  return (
+    <div>
+      <Hero />
+      <BooksList />
+    </div>
+  );
 };
 
 export default Home;
