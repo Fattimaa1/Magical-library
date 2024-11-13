@@ -3,6 +3,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Root from "./Root";
 import Home from "./pages/Home/Home";
+import NewBooks from "./pages/NewBooks/NewBooks";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/new-books",
+        element: <NewBooks />,
       },
     ],
   },

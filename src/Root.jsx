@@ -5,10 +5,10 @@ import { Container, Row } from "react-bootstrap";
 const Root = () => {
   return (
     <Container fluid id="root-container">
-      <Row>
+      <Row className="welcome-section gx-0">
         <MyNavbar />
       </Row>
-      <Row>
+      <Row className="content-section gx-0 mt-6">
         <Outlet />
       </Row>
     </Container>
